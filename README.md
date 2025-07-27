@@ -1,16 +1,70 @@
-# Project1
+# Angular E-Commerce Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+An Angular e-commerce application built with Angular CLI version 20.0.5, featuring product catalog, shopping cart, user authentication, and modern UI with Tailwind CSS.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- 🛍️ Product catalog with categories
+- 🛒 Shopping cart functionality
+- 👤 User authentication system
+- 📱 Responsive design with Tailwind CSS
+- 🎨 Modern UI components
+- 📊 Sample data for products, users, and orders
 
+## Tech Stack
+
+- **Frontend**: Angular 20.0.5
+- **Styling**: Tailwind CSS, SCSS
+- **Build Tool**: Angular CLI
+- **Testing**: Jasmine, Karma
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 18 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
 ```bash
-ng serve
+git clone <your-repo-url>
+cd project-1
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+The application will be available at `http://localhost:4200/`
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── components/          # Reusable UI components
+│   │   ├── header/
+│   │   ├── product-card/
+│   │   ├── category-card/
+│   │   └── category-sidebar/
+│   ├── pages/              # Page components
+│   │   ├── home/
+│   │   ├── products/
+│   │   ├── product-detail/
+│   │   ├── cart/
+│   │   └── login/
+│   ├── services/           # Angular services
+│   ├── models/             # TypeScript interfaces
+│   └── assets/             # Static assets and sample data
+```
 
 ## Code scaffolding
 
