@@ -1,0 +1,51 @@
+<!-- Hero Section -->
+<section class="bg-orange-50 py-16 px-4 md:px-8">
+  <div>
+    <div class="flex flex-col px-28 md:flex-row items-center justify-center gap-8">
+      <!-- Left Content -->
+      <div class="flex-1 space-y-6">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+          Big Sale<br>
+          this week!
+        </h1>
+        <p class="text-lg md:text-xl text-gray-600 max-w-md">
+          Save up to 50% on select products
+        </p>
+        <button (click)="navigateToProducts()" class="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-200 text-lg">
+          Go to Products Page Now
+        </button>
+      </div>
+
+      <!-- Right Content - Laptop Illustration -->
+      <div class="flex-1 relative">
+        <div class="relative max-w-md mx-auto">
+          <!-- Laptop -->
+          <div class="bg-gray-800 rounded-t-xl p-2">
+            <div class="bg-gray-300 rounded-lg h-48 md:h-64 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-400"></div>
+            </div>
+          </div>
+          <div class="bg-gray-700 h-4 mx-auto w-3/4 rounded-b-lg"></div>
+
+          <!-- Sale Tag -->
+          <div class="absolute -top-4 -right-4 bg-red-600 text-white px-4 py-2 rounded-lg shadow-lg transform rotate-12">
+            <div class="flex items-center space-x-1">
+              <span class="text-2xl font-bold">%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Category Cards Section -->
+<section class="py-12 px-4 md:px-8">
+  <div class=" px-28">
+  <h3 class="text-2xl font-bold text-gray-900 mb-6">Top Categories</h3>
+  <div class="max-w-7xl mx-auto">
+    <app-category-card [categories]="categories"></app-category-card>
+  </div>
+  </div>
+</section>

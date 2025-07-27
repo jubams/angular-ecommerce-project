@@ -1,0 +1,14 @@
+<div class="products-page-layout flex gap-6 p-6 bg-orange-50 min-h-screen">
+  <aside class="sidebar w-64 flex-shrink-0">
+    <app-category-sidebar
+      [selectedCategories]="selectedCategory"
+      (selectedCategoriesChange)="selectedCategory = $event"
+    >
+    </app-category-sidebar>
+  </aside>
+  <main class="products-main flex-1">
+    <app-product-card
+      [products]="filteredProducts ? filteredProducts : products"
+    ></app-product-card>
+  </main>
+</div>

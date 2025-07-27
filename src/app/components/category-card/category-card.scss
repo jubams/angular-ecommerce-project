@@ -1,0 +1,107 @@
+/* Text clamping utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Enhanced product card styling */
+.product-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 24px 0 rgba(255, 87, 34, 0.10), 0 1.5px 6px 0 rgba(239, 68, 68, 0.08);
+}
+
+.product-card:hover, .product-card:focus {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 32px 0 rgba(239, 68, 68, 0.18), 0 2px 8px 0 rgba(255, 87, 34, 0.12);
+}
+
+/* Custom backdrop blur for modern browsers */
+@supports (backdrop-filter: blur(10px)) {
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+  }
+}
+
+/* Smooth font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Loading spinner enhancement */
+@keyframes spin-smooth {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin-smooth 1s linear infinite;
+}
+
+/* Focus states for accessibility */
+button:focus,
+.product-card:focus {
+  outline: 2px solid #f87171;
+  outline-offset: 2px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .product-card {
+    margin-bottom: 1rem;
+  }
+
+  .product-card h2 {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .product-card p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Enhanced hover effects */
+.group:hover .group-hover\:scale-110 {
+  transform: scale(1.1);
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+/* Custom gradient animations */
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}

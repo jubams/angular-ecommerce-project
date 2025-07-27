@@ -1,0 +1,50 @@
+  [
+    {
+      "id": 1,
+      "name": "Smartphones",
+      "description": "Latest smartphones with advanced features and high performance.",
+      "image": "assets/images/smartphones.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Laptops",
+      "description": "High-performance laptops for work and play.",
+      "image": "assets/images/laptops.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tablets",
+      "description": "Portable tablets with powerful capabilities.",
+      "image": "assets/images/tablets.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Chargers",
+      "description": "Fast and reliable chargers for all your devices.",
+      "image": "assets/images/chargers.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Headphones",
+      "description": "High-quality headphones for an immersive audio experience.",
+      "image": "assets/images/headphones.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Smartwatches",
+      "description": "Stylish smartwatches with health tracking features.",
+      "image": "assets/images/smartwatches.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cables",
+      "description": "Durable cables for charging and data transfer.",
+      "image": "assets/images/cables.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Accessories",
+      "description": "Various accessories to enhance your electronic devices.",
+      "image": "assets/images/accessories.jpg"
+    }
+  ]

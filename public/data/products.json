@@ -1,0 +1,265 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro Max",
+    "description": "Apple A17 Pro chip, 6.7-inch OLED display, 256GB storage.",
+    "price": 1199,
+    "image": "assets/images/1.jpg",
+    "category": "Smartphones"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S24 Ultra",
+    "description": "200MP camera, Snapdragon 8 Gen 3, 12GB RAM.",
+    "price": 1299,
+    "image": "assets/images/1.jpg",
+    "category": "Smartphones"
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 8 Pro",
+    "description": "Google Tensor G3, 6.7-inch OLED, 120Hz refresh rate.",
+    "price": 999,
+    "image": "assets/images/1.jpg",
+    "category": "Smartphones"
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 12",
+    "description": "Snapdragon 8 Gen 3, 120Hz AMOLED, Hasselblad camera.",
+    "price": 799,
+    "image": "assets/images/1.jpg",
+    "category": "Smartphones"
+  },
+
+  {
+    "id": 5,
+    "name": "MacBook Air M2",
+    "description": "Apple M2 chip, 13.6-inch Retina, 8GB RAM, 256GB SSD.",
+    "price": 1099,
+    "image": "assets/images/1.jpg",
+    "category": "Laptops"
+  },
+  {
+    "id": 6,
+    "name": "Dell XPS 13 Plus",
+    "description": "Intel i7 13th Gen, 16GB RAM, 512GB SSD.",
+    "price": 1349,
+    "image": "assets/images/1.jpg",
+    "category": "Laptops"
+  },
+  {
+    "id": 7,
+    "name": "HP Spectre x360",
+    "description": "2-in-1 convertible, Intel Evo, OLED touchscreen.",
+    "price": 1249,
+    "image": "assets/images/1.jpg",
+    "category": "Laptops"
+  },
+  {
+    "id": 8,
+    "name": "Asus ROG Zephyrus G14",
+    "description": "AMD Ryzen 9, RTX 4060, 1TB SSD, 165Hz QHD.",
+    "price": 1599,
+    "image": "assets/images/1.jpg",
+    "category": "Laptops"
+  },
+
+  {
+    "id": 9,
+    "name": "iPad Pro 12.9” M2",
+    "description": "Apple M2 chip, Liquid Retina XDR, 256GB.",
+    "price": 1099,
+    "image": "assets/images/1.jpg",
+    "category": "Tablets"
+  },
+  {
+    "id": 10,
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "description": "14.6-inch AMOLED, Snapdragon 8 Gen 2, S Pen included.",
+    "price": 1199,
+    "image": "assets/images/1.jpg",
+    "category": "Tablets"
+  },
+  {
+    "id": 11,
+    "name": "Xiaomi Pad 6 Pro",
+    "description": "Snapdragon 8+ Gen 1, 11-inch 144Hz display.",
+    "price": 499,
+    "image": "assets/images/1.jpg",
+    "category": "Tablets"
+  },
+  {
+    "id": 12,
+    "name": "Microsoft Surface Pro 9",
+    "description": "13-inch PixelSense, 12th Gen i5, detachable keyboard.",
+    "price": 999,
+    "image": "assets/images/1.jpg",
+    "category": "Tablets"
+  },
+
+  {
+    "id": 13,
+    "name": "Anker Nano II 65W",
+    "description": "GaN fast charger, USB-C Power Delivery for laptops & phones.",
+    "price": 39,
+    "image": "assets/images/1.jpg",
+    "category": "Chargers"
+  },
+  {
+    "id": 14,
+    "name": "Apple 20W USB-C Power Adapter",
+    "description": "Compact USB-C wall charger for iPhones and iPads.",
+    "price": 19,
+    "image": "assets/images/1.jpg",
+    "category": "Chargers"
+  },
+  {
+    "id": 15,
+    "name": "Samsung Super Fast Charger 45W",
+    "description": "For Galaxy S24 Ultra and supported tablets.",
+    "price": 34,
+        "image": "assets/images/1.jpg",
+    "category": "Chargers"
+  },
+  {
+    "id": 16,
+    "name": "Baseus GaN2 Pro 100W",
+    "description": "USB-C + USB-A, supports laptop charging, compact design.",
+    "price": 49,
+    "image": "assets/images/1.jpg",
+    "category": "Chargers"
+  },
+
+  {
+    "id": 17,
+    "name": "Sony WH-1000XM5",
+    "description": "Industry-leading noise cancellation, 30-hour battery.",
+    "price": 349,
+    "image": "assets/images/1.jpg",
+    "category": "Headphones"
+  },
+  {
+    "id": 18,
+    "name": "Apple AirPods Max",
+    "description": "Over-ear design, Spatial Audio, H1 chips.",
+    "price": 549,
+    "image": "assets/images/1.jpg",
+    "category": "Headphones"
+  },
+  {
+    "id": 19,
+    "name": "Bose QuietComfort Ultra",
+    "description": "Exceptional noise cancelling and crystal-clear audio.",
+    "price": 379,
+    "image": "assets/images/1.jpg",
+    "category": "Headphones"
+  },
+  {
+    "id": 20,
+    "name": "JBL Tune 770NC",
+    "description": "Pure Bass sound, lightweight design, 70H battery.",
+    "price": 99,
+    "image": "assets/images/1.jpg",
+    "category": "Headphones"
+  },
+
+  {
+    "id": 21,
+    "name": "Apple Watch Series 9",
+    "description": "Always-on Retina display, blood oxygen, ECG.",
+    "price": 399,
+    "image": "assets/images/1.jpg",
+    "category": "Smartwatches"
+  },
+  {
+    "id": 22,
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "description": "Rotating bezel, fitness tracking, ECG & BIA.",
+    "price": 429,
+    "image": "assets/images/1.jpg",
+    "category": "Smartwatches"
+  },
+  {
+    "id": 23,
+    "name": "Garmin Venu 3",
+    "description": "AMOLED, sleep tracking, built-in GPS.",
+    "price": 449,
+    "image": "assets/images/1.jpg",
+    "category": "Smartwatches"
+  },
+  {
+    "id": 24,
+    "name": "Fitbit Versa 4",
+    "description": "Heart rate monitor, sleep tracking, 6-day battery.",
+    "price": 199,
+    "image": "assets/images/1.jpg",
+    "category": "Smartwatches"
+  },
+
+  {
+    "id": 25,
+    "name": "Anker USB-C to USB-C Cable 100W",
+    "description": "6ft long, supports Power Delivery and fast charging.",
+    "price": 17,
+    "image": "assets/images/1.jpg",
+    "category": "Cables"
+  },
+  {
+    "id": 26,
+    "name": "Apple Lightning to USB-C Cable",
+    "description": "1m cable for iPhone and iPad charging.",
+    "price": 19,
+      "image": "assets/images/1.jpg",
+    "category": "Cables"
+  },
+  {
+    "id": 27,
+    "name": "UGREEN USB-A to USB-C 3.0 Cable",
+    "description": "Fast data transfer up to 5Gbps, durable nylon braid.",
+    "price": 12,
+    "image": "assets/images/1.jpg",
+    "category": "Cables"
+  },
+  {
+    "id": 28,
+    "name": "Baseus USB-C 240W Cable",
+    "description": "Next-gen power delivery for laptops and Steam Deck.",
+    "price": 24,
+    "image": "assets/images/1.jpg",
+    "category": "Cables"
+  },
+
+  {
+    "id": 29,
+    "name": "PopSocket for Smartphones",
+    "description": "Grip and stand functionality for phones.",
+    "price": 9,
+    "image": "assets/images/1.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 30,
+    "name": "Laptop Sleeve 13-inch",
+    "description": "Water-resistant sleeve with shock padding.",
+    "price": 25,
+    "image": "assets/images/1.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 31,
+    "name": "Tablet Stand Adjustable",
+    "description": "Aluminum, angle-adjustable for iPad/Android.",
+    "price": 29,
+    "image": "assets/images/1.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 32,
+    "name": "MagSafe Wallet",
+    "description": "Attachable leather wallet for iPhone.",
+    "price": 59,
+    "image": "assets/images/1.jpg",
+    "category": "Accessories"
+  }
+]

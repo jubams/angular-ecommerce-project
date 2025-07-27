@@ -1,0 +1,35 @@
+<div
+  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+>
+  <div
+    *ngFor="let product of products"
+    tabindex="0"
+    class="product-card group bg-orange-50 rounded-2xl shadow-lg p-5 flex flex-col items-center transition-all hover:shadow-2xl focus:shadow-2xl cursor-pointer" (click)="navigateToProduct(product)"
+  >
+    <div class="w-full flex justify-center mb-4">
+      <img
+        [src]="product.image"
+        [alt]="product.name"
+        class="rounded-xl h-40 w-40 object-cover group-hover:scale-110 transition-transform duration-300"
+      />
+    </div>
+    <h2 class="text-lg font-bold text-red-500 mb-1 text-center line-clamp-2">
+      {{ product.name }}
+    </h2>
+    <p class="text-black text-sm mb-2 text-center line-clamp-3">
+      {{ product.description }}
+    </p>
+    <div class="flex items-center justify-between w-full mt-auto">
+      <span class="text-red-500 font-bold text-lg">{{ product.price | currency  }}</span>
+      <span
+        class="bg-red-100 text-red-500 text-xs font-semibold px-3 py-1 rounded-full ml-2"
+        >{{ product.category }}</span
+      >
+    </div>
+    <button (click)="addToCard(product.id); $event.stopPropagation()"
+      class="w-full mt-3 bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 cursor-pointer"
+    >
+      Add to Cart
+    </button>
+  </div>
+</div>

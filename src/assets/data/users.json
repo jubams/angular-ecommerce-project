@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "email": "alice@example.com",
+    "password": "alice123",
+    "fullName": "Alice Johnson"
+  },
+  {
+    "id": 2,
+    "email": "bob@example.com",
+    "password": "bobSecure!",
+    "fullName": "Bob Smith"
+  },
+  {
+    "id": 3,
+    "email": "charlie@example.com",
+    "password": "charliePass99",
+    "fullName": "Charlie Brown"
+  },
+  {
+    "id": 4,
+    "email": "diana@example.com",
+    "password": "diana2024",
+    "fullName": "Diana Miller"
+  },
+  {
+    "id": 5,
+    "email": "edward@example.com",
+    "password": "edward_pw",
+    "fullName": "Edward Davis"
+  },
+  {
+    "id": 6,
+    "email": "fiona@example.com",
+    "password": "fionaSafe1",
+    "fullName": "Fiona Wilson"
+  },
+  {
+    "id": 7,
+    "email": "george@example.com",
+    "password": "george!pass",
+    "fullName": "George Thompson"
+  },
+  {
+    "id": 8,
+    "email": "hannah@example.com",
+    "password": "hannah1234",
+    "fullName": "Hannah Martinez"
+  },
+  {
+    "id": 9,
+    "email": "ivan@example.com",
+    "password": "ivanPassword",
+    "fullName": "Ivan Lee"
+  },
+  {
+    "id": 10,
+    "email": "julia@example.com",
+    "password": "juliaSecure",
+    "fullName": "Julia Clark"
+  },
+  {
+    "id": 1,
+    "email": "test@example.com",
+    "password": "test123",
+    "fullName": "Muhammad"
+  }
+]
