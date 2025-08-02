@@ -19,16 +19,7 @@ export class ProductCard  {
   @Input() products: Product[] = [];
 
   navigateToProduct(product: Product) {
-    this.router.navigate(['/product-detail'], {
-      queryParams: {
-        id: product.id,
-        name: product.name,
-        description: product.description,
-        price: product.price,
-        image: product.image,
-        category: product.category
-      }
-    });
+    this.router.navigate(['/product', product.id]);
   }
 
   addToCard(productId : number){
