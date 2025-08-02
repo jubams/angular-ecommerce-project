@@ -1,7 +1,8 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { Product } from '../../models/product.model';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { CartService } from '../../services/cart.service';
+import { ProductService } from '../../services/product.service';
 
 @Component({
   selector: 'app-product-detail',
@@ -22,20 +23,19 @@ export class ProductDetail implements OnInit {
     image: '',
     category:''
   }
-  constructor(private route: ActivatedRoute){}
+  constructor(
+    private route: ActivatedRoute,
+    private productService: ProductService,
+  ){}
 
 
   ngOnInit() {
-    this.route.queryParams.subscribe(params => {
-      if (params['id']) {
-        this.product = {
-          id: +params['id'], // Convert string to number
-          name: params['name'] || '',
-          description: params['description'] || '',
-          price: +params['price'] || 0, // Convert string to number
-          image: params['image'] || '',
-          category: params['category'] || ''
-        };
+    this.route.params.subscribe(params => {
+      const id = +params['id'];
+      if (id) {
+        this.productService.getProductById(id).subscribe(product => {
+          this.product = product;
+        });
       }
     });
   }
