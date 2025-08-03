@@ -18,6 +18,32 @@ An Angular e-commerce application built with Angular CLI version 20.0.5, featuri
 - **Build Tool**: Angular CLI
 - **Testing**: Jasmine, Karma
 
+## For Teachers/Reviewers
+
+### Quick Start
+To quickly run this project locally:
+```bash
+git clone https://github.com/jubams/angular-ecommerce-project.git
+cd angular-ecommerce-project
+npm install
+npm start
+```
+Then open http://localhost:4200 in your browser.
+
+### Key Features Implemented
+- **Component Architecture**: Modular components (header, product cards, category cards)
+- **Routing**: Navigation between different pages (home, products, cart, login)
+- **Services**: Data management for products, categories, cart, and user authentication
+- **Models**: TypeScript interfaces for type safety
+- **Responsive Design**: Mobile-friendly UI with Tailwind CSS
+- **Mock Data**: JSON files simulating a real backend
+
+### Project Highlights
+- Uses Angular 20.0.5 with modern best practices
+- Implements proper separation of concerns
+- Includes unit test setup with Jasmine/Karma
+- Follows Angular style guide conventions
+
 ## Getting Started
 
 ### Prerequisites
@@ -29,8 +55,8 @@ An Angular e-commerce application built with Angular CLI version 20.0.5, featuri
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd project-1
+git clone https://github.com/jubams/angular-ecommerce-project.git
+cd angular-ecommerce-project
 ```
 
 2. Install dependencies:
